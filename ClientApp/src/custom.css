@@ -1,0 +1,33 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.backgroundContainer,.backgroundImg, #root, body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.backgroundImg {
+    background-image: url(./Imgaes/HireMeBackground.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75%;
+    display: block;
+    margin: 0 0 0 21%;
+    overflow-x: hidden;
+    max-width: 100%;
+}
